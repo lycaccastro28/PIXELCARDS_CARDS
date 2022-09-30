@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+
+.avatar img {
+  background-color:rgb(124, 111, 93);
+  border-style: dashed;
+  border-width: 5px;
+  width: 300px;
+  height: 1000px;
+  height: 100%;
+  position: relative;
+
+}
+.hair {
+  width: 315px;
+  position: absolute;
+  bottom: 235px;
+  left: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headacc {
+  width: 315px;
+  position: absolute;
+  bottom: 180px;
+  left: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.nose {
+  width: 315px;
+  position: absolute;
+  bottom: 180px;
+  left: 0px;
+}
+
+.mouth {
+  width: 315px;
+  position: absolute;
+  bottom: 205px;
+  left: 0px;
+}
+
+.eyes {
+  width: 315px;
+  position: absolute;
+  bottom: 65px;
+  left: 0px;
+}
+
+
+/*
+@media (max-width: 426px) {
+  #parts {
+    top: 95px;
+  }
+  .mouth {
+    bottom: 150px;
+    left: -10px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 769px) {
+  #parts {
+    top: 100px;
   }
-  to {
-    transform: rotate(360deg);
+  .mouth {
+    bottom: 145px;
+    left: -10px;
   }
 }
+ 
+@media (max-width: 1320px) {
+  #parts {
+    top: 100px;
+  }
+  .mouth {
+    bottom: 105px;
+    left: -10px;
+  }
+} */
+

@@ -7,7 +7,7 @@ function Mouth(){
 const [mouth, setmouth] = useState(0);
 var mouthNames = [
 
-    'mouth-0', 
+    'NONE', 
     'mouth-1',
     'mouth-2',
     'mouth-3',
@@ -42,13 +42,13 @@ setmouth(mouth+1)
 
     return<>
     <div>
-    <div id="textHere" ><img src ={mouthCollection[mouth].url} className ="mouth" alt="mouth" id="part"></img>
+    <div id="textHere" ><img src ={mouthCollection[mouth].url} className ="mouth" alt="" id="part"></img>
     
     </div>
     <div>
       
-    <button onClick={Prev}> Prev</button><span>{mouthNames[mouth]}</span>
-   <button onClick={Next}> Next</button>
+    <button className="Prev" onClick={Prev}> Prev</button><span>{mouthNames[mouth]}</span>
+   <button className="Next" onClick={Next}> Next</button>
 
    
     </div>

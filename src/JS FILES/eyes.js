@@ -7,7 +7,7 @@ function Eyes(){
 const [eyes, setEyes] = useState(0);
 var eyesNames = [
 
-    'eyes-0',
+    'NONE',
     'eyes-1',
     'eyes-2',
     'eyes-3'
@@ -35,13 +35,13 @@ setEyes(eyes+1)
 }
 
     return<>       <div>
-    <div id="textHere" ><img src ={eyesCollection[eyes].url} className ="eyes" alt="eyes" id="parts" ></img>
+    <div id="textHere" ><img src ={eyesCollection[eyes].url} className ="eyes" alt="" id="parts" ></img>
     
     </div>
     <div>
       
-    <button onClick={Prev}> Prev</button><span>{eyesNames[eyes]}</span>
-   <button onClick={Next}> Next</button>
+    <button className="Prev" onClick={Prev}> Prev</button><span>{eyesNames[eyes]}</span>
+   <button className="Next" onClick={Next}> Next</button>
 
    
     </div>

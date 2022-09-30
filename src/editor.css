@@ -1,3 +1,17 @@
+
+.content{
+  width: 300px;
+  margin-bottom: 10px;
+  padding: 10px;
+} 
+.Next{
+  margin-left: 10px;
+  background-color: cadetblue;
+}
+.Prev{
+  margin-right: 10px;
+  background-color: cadetblue;
+} 
 #editor h1 {
   margin-bottom: 0rem;
   color: white;
@@ -54,3 +68,44 @@
   cursor: pointer;
   color: green;
 }
+
+/*tryy 
+@media (max-width: 426px) {
+  #parts {
+    top: 95px;
+  }
+  .mouth {
+    bottom: 150px;
+    left: -10px;
+  }
+}
+
+@media (max-width: 769px) {
+  #parts {
+    top: 100px;
+  }
+  .mouth {
+    bottom: 145px;
+    left: -10px;
+  }
+}
+ 
+@media (max-width: 1320px) {
+  #parts {
+    top: 100px;
+  }
+  .mouth {
+    bottom: 105px;
+    left: -10px;
+  }
+} */
+
+#parts {
+  position: absolute;
+  bottom: 230px;
+}
+
+.mouth {
+  bottom: 260px;
+}
+
