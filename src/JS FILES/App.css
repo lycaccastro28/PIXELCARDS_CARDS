@@ -1,0 +1,84 @@
+.top {
+  background-color: aqua;
+}
+
+.avatar img {
+  background-color:rgb(124, 111, 93);
+  border-style: dashed;
+  border-width: 5px;
+  width: 300px;
+  height: 1000px;
+  margin-left: 0%;
+  height: 100%;
+  position: relative;
+}
+
+.hair {
+  width: 315px;
+  position: absolute;
+  bottom: 180px;
+  left: -10px;
+}
+
+.headacc {
+  width: 315px;
+  position: absolute;
+  bottom: 180px;
+  left: -10px;
+}
+
+.nose {
+  width: 315px;
+  position: absolute;
+  bottom: 180px;
+  left: -10px;
+}
+
+.mouth {
+  width: 315px;
+  position: absolute;
+  bottom: 205px;
+  left: -10px;
+}
+
+.eyes {
+  width: 315px;
+  position: absolute;
+  bottom: 165px;
+  left: -10px;
+}
+
+@media (max-width: 426px) {
+  #parts {
+    top: 95px;
+  }
+  .mouth {
+    bottom: 150px;
+    left: -10px;
+  }
+}
+
+@media (max-width: 769px) {
+  #parts {
+    top: 100px;
+  }
+  .mouth {
+    bottom: 145px;
+    left: -10px;
+  }
+}
+
+@media (max-width: 1020px) {
+  #parts {
+    top: 100px;
+  }
+  .mouth {
+    bottom: 145px;
+    left: -10px;
+  }
+} 
+
+#hair {
+  display: flex;
+  text-align: center;
+}
