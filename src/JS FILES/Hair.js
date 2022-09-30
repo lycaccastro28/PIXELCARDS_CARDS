@@ -12,8 +12,6 @@ var hairNames = [
     'hair-1',
     'hair-2',
     'hair-3'
-    
-    
 ]; 
   var hairCollection = [
 

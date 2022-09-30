@@ -11,8 +11,6 @@ var eyesNames = [
     'eyes-1',
     'eyes-2',
     'eyes-3'
-    
-    
 ]; 
   var eyesCollection = [
 

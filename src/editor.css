@@ -1,0 +1,56 @@
+#editor h1 {
+  margin-bottom: 0rem;
+  color: white;
+}
+#editor h2 {
+  margin-bottom: 0rem;
+}
+
+#editor .button {
+  font-size: 1.25rem;
+  background-color: green;
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  transition: background-color 0.2s ease-in-out;
+}
+#editor .button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border-color: green;
+}
+#editor .circle-picker {
+  margin-bottom: 0rem !important;
+}
+#editor .button-outline {
+  font-size: 1rem;
+  background-color: transparent;
+  color: white;
+  padding: 0px;
+  border-radius: 0.25rem;
+  border: 1px solid white;
+  transition: background-color 0.2s ease-in-out;
+  margin: 0;
+}
+#editor .button-outline:hover {
+  cursor: pointer;
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+#editor .button-back {
+  font-size: 1rem;
+  background-color: transparent;
+  color: white;
+  padding: 0;
+  border: none;
+  text-decoration: underline;
+  transition: background-color 0.2s ease-in-out;
+  margin: 0 ;
+}
+#editor .button-back:hover {
+  cursor: pointer;
+  color: green;
+}

@@ -1,13 +1,10 @@
 import logo from './FACE.png';
 import './App.css';
-import CARDS from './CARDS';
 import Hair from './Hair';
 import Eyes from './eyes';
 import Mouth from './mouth';
 import Nose from './nose';
 import Headacc from './headacc';
-
-
 
 function secondtomain() {
   return (
@@ -18,7 +15,7 @@ function secondtomain() {
         <div className='col-6'>
           <div className=' avatar'>
         
-          <img src={logo}/>
+          <img src={logo} alt="logo"/>
           </div>
         </div>
         

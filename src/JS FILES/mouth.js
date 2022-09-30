@@ -14,7 +14,6 @@ var mouthNames = [
     'mouth-4',
     'mouth-5'
     
-    
 ]; 
   var mouthCollection = [
     

@@ -7,7 +7,6 @@ function Editor() {
   const [hideOptions, setHideOptions] = useState(false);
   const [hideDrawingCanvas, setHideDrawingCanvas] = useState(true);
   //const [buttonText, setButtonText] = useState('Start drawing');
-  const [selectedColor, setSelectedColor] = useState('#f44336');
 
 
   const initializeCanvas = () => {

@@ -12,8 +12,6 @@ var headaccNames = [
     'headacc-1',
     'headacc-2',
     'headacc-3'
-    
-    
 ]; 
   var headaccCollection = [
 

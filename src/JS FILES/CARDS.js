@@ -3,7 +3,7 @@ import Hair from './Hair';
 function Card(props) {
     return (
       <div className="card">
-        <img className="card-img-top"/>
+        <img className="card-img-top" alt=""/>
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>
           <p className="card-text">{props.description}</p>
@@ -15,7 +15,7 @@ function Card(props) {
 function Card1(props) {
     return (
       <div className="card">
-        <img className="card-img-top"/>
+        <img className="card-img-top" alt=""/>
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>
           <p className="card-text">{props.description}</p>
@@ -23,7 +23,6 @@ function Card1(props) {
       </div>
     );
 }
-
 function CardList() {
   return (
     <div className="row">

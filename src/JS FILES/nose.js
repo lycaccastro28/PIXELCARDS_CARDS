@@ -11,8 +11,6 @@ var noseNames = [
     'nose-1',
     'nose-2',
     'nose-3'
-    
-    
 ]; 
   var noseCollection = [
     
