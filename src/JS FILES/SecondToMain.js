@@ -19,7 +19,6 @@ function SecondToMain () {
             <div className='col-4'>
               <div className=' avatar'>
                 <img src={logo} alt="logo" style={{backgroundColor:CompactPickerColor }}/>
-                
               </div>
             </div>
             <div className='col-4'>
@@ -51,6 +50,9 @@ function SecondToMain () {
  />
               </div>
             </div>
+           
+            <input type = "button" value = "Print" onclick = "window.print()" />
+            
         </div>  
         </div>
     </>
