@@ -5,7 +5,7 @@ import Eyes from './eyes';
 import Mouth from './mouth';
 import Nose from './nose';
 import Headacc from './headacc';
-import Color from './Color';
+import Colors from './Color';
 
 
 function secondtomain() {
@@ -18,6 +18,7 @@ function secondtomain() {
             <div className='col-4'>
               <div className=' avatar'>
                 <img src={logo} alt="logo" Style="margin-left: -125px;"/>
+                
               </div>
             </div>
             <div className='col-4'>
@@ -46,7 +47,7 @@ function secondtomain() {
               </div>
               <div className='content text-center' style={{backgroundColor:'yellow'}}>
               <h2>Skin Tone</h2>
-            <Color /> 
+             <Colors />
               </div>
             </div>
         </div>  
