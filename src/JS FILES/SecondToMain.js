@@ -6,9 +6,10 @@ import Mouth from './mouth';
 import Nose from './nose';
 import Headacc from './headacc';
 import Colors from './Color';
+import { useState } from "react";
 
-
-function secondtomain () {
+function SecondToMain () {
+  const [CompactPickerColor, setCompactPickerColor] = useState("#37d67a");
   return (
     <>
       
@@ -17,7 +18,7 @@ function secondtomain () {
           <div className='row'>
             <div className='col-4'>
               <div className=' avatar'>
-                <img src={logo} alt="logo" Style="margin-left: -125px;"/>
+                <img src={logo} alt="logo" style={{backgroundColor:CompactPickerColor }}/>
                 
               </div>
             </div>
@@ -46,7 +47,8 @@ function secondtomain () {
             <Mouth /> 
               </div>
               <div className='content text-center' style={{backgroundColor:'yellow'}}>
-             <Colors />
+             <Colors CompactPickerColor={CompactPickerColor} setCompactPickerColor={setCompactPickerColor}
+ />
               </div>
             </div>
         </div>  
@@ -54,4 +56,4 @@ function secondtomain () {
     </>
   );
 }
-export default secondtomain;
+export default SecondToMain;

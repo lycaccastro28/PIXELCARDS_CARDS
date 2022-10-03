@@ -1,15 +1,14 @@
 import { CompactPicker } from "react-color";
 import { useState } from "react";
 
-function Color() {
+function Color({CompactPickerColor , setCompactPickerColor})
+ {
  
-  const [CompactPickerColor, setCompactPickerColor] = useState("#37d67a");
 
   return (
     <div className="App">
       <div className="CompactPicker">
        <h2> Skin Tone</h2>
-       
         <div
           style={{
             backgroundColor: `${CompactPickerColor}`,

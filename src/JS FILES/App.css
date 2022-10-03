@@ -1,12 +1,12 @@
 
 
 .avatar img {
-  background-color:rgb(124, 111, 93);
+  background-color:white;
   border-style: dashed;
   border-width: 5px;
   width: 300px;
   height: 1000px;
-  margin-left: 0%;
+  margin-left: -120px;
   height: 100%;
   position: relative;
 }

@@ -24,7 +24,7 @@ function Editor() {
 
       {hideDrawingCanvas && (
         <button 
-          className='button'
+          className='button' id='start'
           onClick={initializeCanvas}
         > Start Drawing
         </button>
