@@ -8,6 +8,7 @@ import Headacc from './headacc';
 import Colors from './Color';
 import { useState } from "react";
 
+
 function SecondToMain () {
   const [CompactPickerColor, setCompactPickerColor] = useState("#37d67a");
   return (
@@ -50,12 +51,11 @@ function SecondToMain () {
  />
               </div>
             </div>
-           
-            <input type = "button" value = "Print" onclick = "window.print()" />
-            
+            <button onClick={window.print} className = "print">Print</button>
         </div>  
         </div>
     </>
   );
+  
 }
 export default SecondToMain;
