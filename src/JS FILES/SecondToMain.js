@@ -8,7 +8,7 @@ import Headacc from './headacc';
 import Colors from './Color';
 
 
-function secondtomain() {
+function secondtomain () {
   return (
     <>
       
@@ -46,7 +46,6 @@ function secondtomain() {
             <Mouth /> 
               </div>
               <div className='content text-center' style={{backgroundColor:'yellow'}}>
-              <h2>Skin Tone</h2>
              <Colors />
               </div>
             </div>

@@ -16,9 +16,9 @@ var headaccNames = [
   var headaccCollection = [
 
     { url: ""},
-    { url: "http://localhost:3000/acc_00.png"},
-    { url: "http://localhost:3000/acc_01.png" },
-    { url: "http://localhost:3000/acc_02.png" },
+    { url: "acc_00.png"},
+    { url: "acc_01.png" },
+    { url: "acc_02.png" },
    
     
 ];
@@ -35,10 +35,11 @@ setheadacc(headacc+1)
 
 }
 
-    return<>       <div>
-    <div id="textHere" ><img src ={headaccCollection[headacc].url} className ="headacc" alt="" id="parts"></img>
+    return<>       
+    <div>
+      <div id="textHere" ><img src ={headaccCollection[headacc].url} className ="headacc" alt="" id="parts"></img>
     
-    </div>
+      </div>
     <div>
       
     <button className="Prev"onClick={Prev}>Prev</button><span>{headaccNames[headacc]}</span>

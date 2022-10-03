@@ -12,36 +12,41 @@
   margin-right: 10px;
   background-color: cadetblue;
 } 
+#editor{
+  background-color: lightcoral;
+  height: 100%;
+  width: 100%;
+}
+
 #editor h1 {
-  margin-bottom: 0rem;
+  margin-bottom: 0px;
   color: white;
+  text-align: center;
 }
 #editor h2 {
-  margin-bottom: 0rem;
+  margin-bottom: 0px;
 }
 
 #editor .button {
   font-size: 1.25rem;
   background-color: green;
-  color: white;
-  padding: 1rem 3rem;
+  color:lightgreens;
+  padding: 10px 10px;
   border-radius: 0.25rem;
   text-transform: uppercase;
   border: 1px solid transparent;
   transition: background-color 0.2s ease-in-out;
+ 
 }
 #editor .button:hover {
   cursor: pointer;
   background-color: transparent;
   border-color: green;
 }
-#editor .circle-picker {
-  margin-bottom: 0rem !important;
-}
 #editor .button-outline {
   font-size: 1rem;
   background-color: transparent;
-  color: white;
+  color: black;
   padding: 0px;
   border-radius: 0.25rem;
   border: 1px solid white;
@@ -50,14 +55,14 @@
 }
 #editor .button-outline:hover {
   cursor: pointer;
-  background-color: white;
-  border-color: white;
+  background-color:lightgreen;
+  border-color: lightgreen;
   color: black;
 }
 #editor .button-back {
   font-size: 1rem;
   background-color: transparent;
-  color: white;
+  color:black;
   padding: 0;
   border: none;
   text-decoration: underline;

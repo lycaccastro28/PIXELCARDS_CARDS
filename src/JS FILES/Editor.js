@@ -17,7 +17,7 @@ function Editor() {
     setHideOptions(false);
     setHideDrawingCanvas(true);
   };
-
+ 
   return (
     <div id="editor">
       <h1>PIXEL EDITOR</h1>
@@ -36,8 +36,7 @@ function Editor() {
             onClick={handleGoBack}> 
             Reset
           </button>
-          <SecondToMain />
-
+          < SecondToMain/>
           
         </>
       )}
