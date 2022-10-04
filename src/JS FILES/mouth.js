@@ -17,32 +17,39 @@ var mouthNames = [
 ]; 
   var mouthCollection = [
     
-    { url: ""},
-    { url: "http://localhost:3000/mouth_00.png"},
-    { url: "http://localhost:3000/mouth_01.png" },
-    { url: "http://localhost:3000/mouth_02.png" },
-    { url: "http://localhost:3000/mouth_03.png" },
-    { url: "http://localhost:3000/mouth_04.png" },
-    { url: "http://localhost:3000/mouth_05.png" },
+    "","mouth_00.png","mouth_01.png","mouth_02.png","mouth_03.png","mouth_04.png","mouth_05.png"
    
     
-];
+  ];
+  
 function Prev(){
  
-setmouth(mouth-1)
-     
+  if (mouth <= 0)
+  {
+    setmouth(5)
+  }
+  else{
+    setmouth(mouth-1)
+  }   
 
 }
 
 
 function Next(){
-setmouth(mouth+1)
+
+  if (mouth >= 3)
+  {
+    setmouth(0)
+  }
+  else{
+    setmouth(mouth+1)
+  }
 
 }
 
     return<>
     <div>
-    <div id="textHere" ><img src ={mouthCollection[mouth].url} className ="mouth" alt="" id="part"></img>
+    <div id="textHere" ><img src ={mouthCollection[mouth]} className ="mouth" alt="" id="part"></img>
     
     </div>
     <div>

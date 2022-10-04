@@ -15,29 +15,37 @@ var hairNames = [
 ]; 
   var hairCollection = [
 
-    { url: ""},
-    { url: "http://localhost:3000/hair_00.png"},
-    { url: "http://localhost:3000/hair_01.png" },
-    { url: "http://localhost:3000/hair_02.png" },
-   
-    
-];
+  "","hair_00.png","hair_01.png","hair_02.png","hair_03.png"
+      
+  ];
 function Prev(){
+  
+  if (hair <= 0)
+  {
+    sethair(3)
+  }
+  else{
+    sethair(hair-1)
+  }
  
-sethair(hair-1)
-     
-
 }
 
 
 function Next(){
-sethair(hair+1)
+
+  if (hair >= 3)
+  {
+    sethair(0)
+  }
+  else{
+    sethair(hair+1)
+  }
 
 }
 
     return<>      
     <div>
-      <div id="textHere" ><img src ={hairCollection[hair].url} className ="hair" alt="" id="parts"></img>
+      <div id="textHere" ><img src ={hairCollection[hair]} className ="hair" alt="" id="parts"></img> 
     
     </div>
     <div>

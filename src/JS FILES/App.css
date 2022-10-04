@@ -5,10 +5,14 @@
   border-style: dashed;
   border-width: 5px;
   width: 300px;
-  height: 1000px;
-  margin-left: -120px;
   height: 100%;
-  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.card-txt {
+  font-family: 'VT323', monospace;
+  font-size: 40px;
 }
 
 .hair {
@@ -21,8 +25,8 @@
 .headacc {
   width: 315px;
   position: absolute;
-  bottom: 180px;
-  left: -10px;
+  bottom: 168px;
+  left: -16px;
 }
 
 .nose {
@@ -48,35 +52,41 @@
 
 @media (max-width: 426px) {
   #parts {
-    top: 95px;
+    top: 175px;
+    left: 0px; 
+  }
+
+  .eyes {
+    bottom: 220px;
   }
   .mouth {
-    bottom: 150px;
-    left: -10px;
+    bottom: 70px;
+    left: 0px;
   }
 }
 
-@media (max-width: 769px) {
+/* @media (max-width: 769px) {
   #parts {
-    top: 100px;
+     top: 100px; 
   }
-  .mouth {
+   .mouth {
     bottom: 145px;
     left: -10px;
-  }
+  } 
 }
 
 @media (max-width: 1020px) {
   #parts {
-    top: 100px;
+     top: 100px; 
   }
-  .mouth {
+   .mouth {
     bottom: 145px;
     left: -10px;
-  }
-} 
+  } 
+}  */
 
 #hair {
   display: flex;
   text-align: center;
 }
+

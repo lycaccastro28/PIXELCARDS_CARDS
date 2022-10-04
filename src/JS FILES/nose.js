@@ -14,28 +14,38 @@ var noseNames = [
 ]; 
   var noseCollection = [
     
-    { url: ""},
-    { url: "http://localhost:3000/nose_00.png"},
-    { url: "http://localhost:3000/nose_01.png" },
-    { url: "http://localhost:3000/nose_02.png" },
-   
-    
-];
+    "","nose_00.png","nose_01.png","nose_02.png"
+      
+  ];
+
 function Prev(){
- 
-setnose(nose-1)
-     
+
+  if (nose <= 0)
+  {
+    setnose(3)
+  }
+  else{
+    setnose(nose-1)
+  }    
 
 }
 
 
 function Next(){
-setnose(nose+1)
+
+  if (nose >= 3)
+  {
+    setnose(0)
+  }
+  else{
+    setnose(nose+1)
+  }
+
 
 }
 
     return<>       <div>
-    <div id="textHere" ><img src ={noseCollection[nose].url} className ="nose" alt="" id="parts"></img>
+    <div id="textHere" ><img src ={noseCollection[nose]} className ="nose" alt="" id="parts"></img>
     
     </div>
     <div>

@@ -14,28 +14,38 @@ var eyesNames = [
 ]; 
   var eyesCollection = [
 
-    { url: ""},
-    { url: "http://localhost:3000/eye_00.png",},
-    { url: "http://localhost:3000/eye_01.png", },
-    { url: "http://localhost:3000/eye_02.png" },
-   
-    
-];
+    "","eye_01.png","eye_02.png","eye_03.png",
+      
+  ];
+  
 function Prev(){
  
-setEyes(eyes-1)
-     
-
+  if (eyes <= 0)
+  {
+    setEyes(3)
+  }
+  else{
+    setEyes(eyes-1)
+  }
+ 
 }
 
 
 function Next(){
-setEyes(eyes+1)
+
+  if (eyes >= 3)
+  {
+    setEyes(0)
+  }
+  else{
+    setEyes(eyes+1)
+  }
+
 
 }
 
     return<>       <div>
-    <div id="textHere" ><img src ={eyesCollection[eyes].url} className ="eyes" alt="" id="parts" ></img>
+    <div id="textHere" ><img src ={eyesCollection[eyes]} className ="eyes" alt="" id="" ></img>
     
     </div>
     <div>

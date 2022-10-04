@@ -19,7 +19,10 @@ function Editor() {
   };
  
   return (
-    <div id="editor">
+
+    <div className='container' id="editor">
+      <div className='row'>
+        
       <h1>PIXEL EDITOR</h1>
 
       {hideDrawingCanvas && (
@@ -40,6 +43,8 @@ function Editor() {
           
         </>
       )}
+      
+      </div>
     </div> 
   )
 }

@@ -17,38 +17,38 @@ function SecondToMain () {
       {/*pindutan*/}
       <div className='container'>
           <div className='row'>
-            <div className='col-4'>
+            <div className='col-md-4'>
               <div className=' avatar'>
                 <img src={logo} alt="logo" style={{backgroundColor:CompactPickerColor }}/>
+                {/* <img src={hairCollection}/> */}
               </div>
             </div>
-            <div className='col-4'>
+            <div className='col-md-4'>
 
-            <div className=' content text-center' style={{backgroundColor:'blue' }}>
-              <h2>HAIR</h2>
+            <div className=' content text-center' style={{backgroundColor:'blue'  }}>
+              <h2 className='card-txt'>HAIR</h2>
             <div className='' id=''><Hair /> </div>
               </div>
-              <div className=' content text-center' style={{backgroundColor:'violet'}}>
-              <h2>Head Accesories</h2>
+              <div className=' card content text-center' style={{backgroundColor:'violet'}}>
+              <h2 className='card-txt'>Head Accesories</h2>
             <Headacc /> 
               </div>
-              <div className='content text-center' style={{backgroundColor:'pink'}}>
-              <h2>Eyes</h2>
+              <div className='card content text-center' style={{backgroundColor:'pink'}}>
+              <h2 className='card-txt' >Eyes</h2>
             <Eyes /> 
               </div>
               </div>
-              <div className='col-4'>
+              <div className='col-md-4'>
               <div className='content text-center' style={{backgroundColor:'green'}}>
-              <h2>Nose</h2>
+              <h2 className='card-txt' >Nose</h2>
             <Nose /> 
               </div>
               <div className='content text-center' style={{backgroundColor:'red'}}>
-              <h2>Mouth</h2>
+              <h2 className='card-txt' >Mouth</h2>
             <Mouth /> 
               </div>
               <div className='content text-center' style={{backgroundColor:'yellow'}}>
-             <Colors CompactPickerColor={CompactPickerColor} setCompactPickerColor={setCompactPickerColor}
- />
+             <Colors CompactPickerColor={CompactPickerColor} setCompactPickerColor={setCompactPickerColor}/>
               </div>
             </div>
             <button onClick={window.print} className = "print">Print</button>

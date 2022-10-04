@@ -11,7 +11,11 @@
 .Prev{
   margin-right: 10px;
   background-color: cadetblue;
-} 
+}
+
+.card {
+  position: relative;
+}
 #editor{
   background-color: lightcoral;
   height: 100%;
@@ -37,11 +41,18 @@
   border: 1px solid transparent;
   transition: background-color 0.2s ease-in-out;
   margin-bottom: 50px;
- margin-left: 625px;
+  font-size: 50px;
  
 }
+
+.button{
+  font-family: 'VT323', monospace;
+  
+}
+
+
 #editor #start{
-  margin-left: 597px;
+  font-family: 'VT323', monospace;
 }
 #editor .button:hover {
   cursor: pointer;
@@ -79,43 +90,53 @@
   color: green;
 }
 
-/*tryy 
-@media (max-width: 426px) {
+@media (min-width:310px){
+  #parts{
+    position: absolute;
+    bottom: 100px;
+  }
+
+}
+@media (min-width: 1020px){
   #parts {
-    top: 95px;
+    position: absolute;
+    bottom: 120px;
+    left: 112px;
+  }
+  
+  .mouth {
+    bottom: 140px;
+    left: 113px;
+  }
+
+  .headacc {
+    top: -110px;
+    left: -400px;
+  }
+
+  .eyes {
+    top: -175px;
+    left: -392px;
+  }
+}
+
+
+@media (min-width: 1370px){
+  #parts {
+    left: 300px;
+    bottom: 430px;
   }
   .mouth {
-    bottom: 150px;
-    left: -10px;
+    bottom: 450px;
+    left: 300px;
+  }
+  .headacc {
+    top: -110px;
+    left: -458px;
+  }
+
+  .eyes {
+    top: -175px;
+    left: -450px;
   }
 }
-
-@media (max-width: 769px) {
-  #parts {
-    top: 100px;
-  }
-  .mouth {
-    bottom: 145px;
-    left: -10px;
-  }
-}
- 
-@media (max-width: 1320px) {
-  #parts {
-    top: 100px;
-  }
-  .mouth {
-    bottom: 105px;
-    left: -10px;
-  }
-} */
-
-#parts {
-  position: absolute;
-  bottom: 175px;
-}
-
-.mouth {
-  bottom: 200px;
-}
-

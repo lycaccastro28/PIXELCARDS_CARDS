@@ -15,29 +15,38 @@ var headaccNames = [
 ]; 
   var headaccCollection = [
 
-    { url: ""},
-    { url: "acc_00.png"},
-    { url: "acc_01.png" },
-    { url: "acc_02.png" },
-   
+ "","acc_00.png","acc_01.png","acc_02.png"  
     
-];
+  ];
+  
 function Prev(){
  
-setheadacc(headacc-1)
-     
+  if (headacc <= 0)
+  {
+    setheadacc(3)
+  }
+  else{
+    setheadacc(headacc-1)
+  }    
 
 }
 
 
 function Next(){
-setheadacc(headacc+1)
+
+    if (headacc >= 3)
+  {
+    setheadacc(0)
+  }
+  else{
+    setheadacc(headacc+1)
+  }
 
 }
 
     return<>       
     <div>
-      <div id="textHere" ><img src ={headaccCollection[headacc].url} className ="headacc" alt="" id="parts"></img>
+      <div id="textHere" ><img src ={headaccCollection[headacc]} className ="headacc" alt="" id=""></img>
     
       </div>
     <div>
