@@ -23,37 +23,37 @@ function SecondToMain () {
                 {/* <img src={hairCollection}/> */}
               </div>
             </div>
-            <div className='col-md-4'>
+            <div className='col-md-4'>  
 
-            <div className=' content text-center' style={{backgroundColor:'blue'  }}>
+            <div className=' content text-center' style={{backgroundColor: '#F8B400'  }}>
               <h2 className='card-txt'>HAIR</h2>
             <div className='' id=''><Hair /> </div>
               </div>
-              <div className=' card content text-center' style={{backgroundColor:'violet'}}>
+              <div className=' card content text-center' style={{backgroundColor:'#2192FF'}}>
               <h2 className='card-txt'>Head Accesories</h2>
             <Headacc /> 
               </div>
-              <div className='card content text-center' style={{backgroundColor:'pink'}}>
+              <div className='card content text-center' style={{backgroundColor:'#38E54D'}}>
               <h2 className='card-txt' >Eyes</h2>
             <Eyes /> 
               </div>
               </div>
               <div className='col-md-4'>
-              <div className='content text-center' style={{backgroundColor:'green'}}>
+              <div className='content text-center' style={{backgroundColor:'#E8AA42'}}>
               <h2 className='card-txt' >Nose</h2>
             <Nose /> 
               </div>
-              <div className='content text-center' style={{backgroundColor:'red'}}>
+              <div className='content text-center' style={{backgroundColor:'#F07DEA'}}>
               <h2 className='card-txt' >Mouth</h2>
             <Mouth /> 
               </div>
-              <div className='content text-center' style={{backgroundColor:'yellow'}}>
+              <div className='content text-center' style={{backgroundColor:'#FCD900'}}>
              <Colors CompactPickerColor={CompactPickerColor} setCompactPickerColor={setCompactPickerColor}/>
               </div>
             </div>
-            <button onClick={window.print} className = "print">Print</button>
+            <button onClick={window.print} className = "print button" id='btn-bottom'>Print</button>
         </div>  
-        </div>
+        </div>  
     </>
   );
   

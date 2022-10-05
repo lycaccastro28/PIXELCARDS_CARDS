@@ -1,4 +1,3 @@
-
 .content{
   width: 300px;
   margin-bottom: 10px;
@@ -6,18 +5,18 @@
 } 
 .Next{
   margin-left: 10px;
-  background-color: cadetblue;
+  background-color: #FAF5E4;
 }
 .Prev{
   margin-right: 10px;
-  background-color: cadetblue;
+  background-color: #FAF5E4;
 }
 
 .card {
   position: relative;
 }
 #editor{
-  background-color: lightcoral;
+  background-color: #FF6363;
   height: 100%;
   width: 100%;
 }
@@ -33,7 +32,8 @@
 
 #editor .button {
   font-size: 1.25rem;
-  background-color: green;
+  background-color: #FAF5E4;
+  opacity: 85%;
   color:lightgreens;
   padding: 10px 10px;
   border-radius: 0.25rem;
@@ -57,7 +57,7 @@
 #editor .button:hover {
   cursor: pointer;
   background-color: transparent;
-  border-color: green;
+  border-color: black;
 }
 #editor .button-outline {
   font-size: 1rem;
@@ -90,6 +90,7 @@
   color: green;
 }
 
+
 @media (min-width:310px){
   #parts{
     position: absolute;
@@ -101,12 +102,12 @@
   #parts {
     position: absolute;
     bottom: 120px;
-    left: 112px;
+    left: 108px;
   }
   
   .mouth {
     bottom: 140px;
-    left: 113px;
+    left: 105px;
   }
 
   .headacc {
@@ -115,8 +116,8 @@
   }
 
   .eyes {
-    top: -175px;
-    left: -392px;
+    top: -193px;
+    left: -395px;
   }
 }
 
@@ -136,7 +137,7 @@
   }
 
   .eyes {
-    top: -175px;
-    left: -450px;
+    top: -195px;
+    left: -455px;
   }
 }
