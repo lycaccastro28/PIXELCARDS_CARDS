@@ -14,7 +14,7 @@ var eyesNames = [
 ]; 
   var eyesCollection = [
 
-    "","eye_01.png","eye_02.png","eye_03.png",
+    "","eye_00.png","eye_01.png","eye_02.png",
       
   ];
   
@@ -44,14 +44,15 @@ function Next(){
 
 }
 
-    return<>       <div>
-    <div id="textHere" ><img src ={eyesCollection[eyes]} className ="eyes" alt="" id="" ></img>
-    
-    </div>
+    return<>       
+    <div>
+      <div id="textHere" >
+        <img src ={eyesCollection[eyes]} className ="eyes" alt="" id="" ></img>
+      </div>
     <div>
       
     <button className="Prev" onClick={Prev}> Prev</button><span>{eyesNames[eyes]}</span>
-   <button className="Next" onClick={Next}> Next</button>
+    <button className="Next" onClick={Next}> Next</button>
 
    
     </div>

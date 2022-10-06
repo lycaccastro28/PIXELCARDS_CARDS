@@ -6,10 +6,14 @@
 .Next{
   margin-left: 10px;
   background-color: #FAF5E4;
+  position: relative;
+  z-index: 99;
 }
 .Prev{
   margin-right: 10px;
   background-color: #FAF5E4;
+  position: relative;
+  z-index: 99;
 }
 
 .card {
@@ -96,8 +100,15 @@
     position: absolute;
     bottom: 100px;
   }
+}
+
+  @media(min-height: 840px){
+  .mouth {
+    bottom: 380px;
+  }
 
 }
+
 @media (min-width: 1020px){
   #parts {
     position: absolute;

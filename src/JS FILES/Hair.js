@@ -15,7 +15,7 @@ var hairNames = [
 ]; 
   var hairCollection = [
 
-  "","hair_00.png","hair_01.png","hair_02.png","hair_03.png"
+  "","hair_00.png","hair_01.png","hair_02.png"
       
   ];
 function Prev(){

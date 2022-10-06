@@ -25,7 +25,7 @@ function SecondToMain () {
             </div>
             <div className='col-md-4'>  
 
-            <div className=' content text-center' style={{backgroundColor: '#F8B400'  }}>
+            <div className=' content text-center' style={{backgroundColor: '#F8B400'}}>
               <h2 className='card-txt'>HAIR</h2>
             <div className='' id=''><Hair /> </div>
               </div>
